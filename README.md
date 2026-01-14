@@ -26,11 +26,11 @@ Given features describing a concert experience, predict the level of enjoyment o
 - Hyperparameter tuning using cross-validation
 
 ## Evaluation Metrics
-- Mean Absolute Error (MAE) (linear models)
-- Mean Squared Error (MSE) (linear models)
-- Cohen Kappa Score (QWK) (linear models)
-- Classification report (Deep Learning Model)
-- Confusion matrix (ordinal interpretation) (Deep Learning Model)
+- Mean Absolute Error (MAE) — linear ordinal models
+- Mean Squared Error (MSE) — linear ordinal models
+- Quadratic Weighted Kappa (QWK) — linear ordinal models
+- Classification report — deep learning model
+- Confusion matrix with ordinal interpretation — deep learning model
 
 ## Results
 - Ordinal models outperformed standard classification baselines
@@ -43,6 +43,7 @@ Given features describing a concert experience, predict the level of enjoyment o
 - Proper evaluation of ordinal predictions
 
 ## Project structure
+```text
 notebooks/
 ├── 01_eda.ipynb
 └── 03_test_evaluation.ipynb
